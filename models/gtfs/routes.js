@@ -27,7 +27,7 @@ module.exports = {
       type: 'integer',
       required: true,
       min: 0,
-      max: 7
+      max: 1702
     },
     {
       name: 'route_url',
