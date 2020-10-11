@@ -7,6 +7,11 @@ module.exports = {
       primary: true
     },
     {
+      name: 'feed_id',
+      type: 'varchar(255)',
+      index: true // not required as non-standard
+    },
+    {
       name: 'feed_publisher_name',
       type: 'varchar(255)',
       required: true
